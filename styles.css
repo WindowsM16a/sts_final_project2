@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root{
+    --anonyms-color: #FF003D;
+    --names-color: #FF2B51;
+}
+
+*{
+    margin: 0;
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins';
+    text-decoration: none;
+}
+
+body{
+    background-color: #000000;
+    color: white;
+    /* display: flex;
+    flex-direction: column; */
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 95rem;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navdiv{
+    margin-top: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 90rem;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+.logo img{
+    width: 5rem;
+}
+.logo h1{
+    text-transform: uppercase;
+    color: var(--anonyms-color);
+    font-size: 1.2rem;
+}
+
+.name{
+    display: flex;
+    flex-direction: column;
+    align-items: right;
+    justify-content: center;
+    text-align: right;
+}
+
+.name .firstName{
+    text-transform: uppercase;
+    color: var(--names-color);
+    font-weight: 400;
+    letter-spacing: rem;
+    margin-right: 0.3rem;
+}
+
+.name .lastName{
+    text-transform: uppercase;
+    color: var(--names-color);
+    font-weight: 600;
+    letter-spacing: 0.3rem;
+}
+
+.content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+ul li{
+    text-decoration: none;
+}
